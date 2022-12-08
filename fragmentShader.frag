@@ -1,5 +1,12 @@
 #version 330 core
 
+
+
+
+   
+
+
+
 in vec3 Normal;  
 in vec3 FragPos;  
 
@@ -33,4 +40,7 @@ void main()
         
     vec3 result = (ambient + diffuse + specular) * objectColor;
     FragColor = vec4(result, 1.0);
+  
+
+     
 }
